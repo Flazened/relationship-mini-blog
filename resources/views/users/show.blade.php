@@ -24,7 +24,7 @@
                     </h4>
                     @foreach($post->comments as $comment)
                         <div class="bg-gray-50 p-2 rounded mb-2 text-sm">
-                            <span class="font-semibold">{{ $comment->commenter_name }}:</span>
+                            <span class="font-semibold">{{ $comment->commentar_name }}:</span>
                             {{ $comment->message }}
                         </div>
                     @endforeach
